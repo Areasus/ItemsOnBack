@@ -80,3 +80,6 @@ If you use fivem-appearance you need to add the triggers whenever you call the s
 		TriggerEvent("backitems:displayItems", true)
 	end, config)
  ```
+
+
+ Dont forget to register event weapons:client:SetCurrentWeapon in your weapons(e.g.qb-weapons) you are using
